@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tin tức Việt Nam</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .nav-container {
+            justify-content: center;
+            display: flex;
+            border-bottom: 1px solid #eaeaea;
+            padding: 10px 0;
+            overflow: auto;
+            white-space: nowrap;
+        }
+        
+        .nav-item {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .nav-item:hover {
+            text-decoration: underline;
+        }
+        
+        .active {
+            color: #1a73e8;
+        }
+        
+        .news-container {
+            margin-top: 20px;
+        }
+        
+        .news-item {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #f5f5f5;
+            padding-bottom: 20px;
+        }
+        
+        .news-image {
+            flex: 0 0 300px;
+            margin-right: 20px;
+        }
+        
+        .news-image img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .news-content {
+            flex: 1;
+        }
+        
+        .news-category {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        
+        .news-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        
+        .news-subtitle {
+            color: #555;
+            margin-top: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .news-subtitle:before {
+            content: "°";
+            position: absolute;
+            left: 5px;
+            top: 0;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <a href="blank.html" class="nav-item">Thời sự</a>
+        <a href="blank.html" class="nav-item">Thế giới</a>
+        <a href="blank.html" class="nav-item">Kinh tế</a>
+        <a href="blank.html" class="nav-item">Đời sống</a>
+        <a href="blank.html" class="nav-item">Sức khỏe</a>
+        <a href="blank.html" class="nav-item">Giới trẻ</a>
+        <a href="blank.html" class="nav-item">Giáo dục</a>
+        <a href="blank.html" class="nav-item">Du lịch</a>
+        <a href="blank.html" class="nav-item">Văn hóa</a>
+        <a href="blank.html" class="nav-item">Giải trí</a>
+        <a href="blank.html" class="nav-item">Thể thao</a>
+        <a href="blank.html" class="nav-item active">Công nghệ</a>
+    </div>
+    
+    <div class="news-container">
+
+        <div class="news-item">
+            <div class="news-image">
+                <img src="images/1.jpeg" alt="Hội nghị công nghệ số">
+            </div>
+            <div class="news-content">
+                <div class="news-category">Tin tức công nghệ</div>
+                <h2 class="news-title">Mở chiến dịch hỗ trợ doanh nghiệp công nghệ số Việt Nam vươn ra thế giới</h2>
+                <div class="news-subtitle">Tạo hành lang thu hút doanh nghiệp công nghệ số</div>
+            </div>
+        </div>
+        
+        <div class="news-item">
+
+            <div class="news-image">
+                <img src="images/2.jpg" alt="YouTube TV trên điện thoại">
+            </div>
+            <div class="news-content">
+                <div class="news-category">Tin tức công nghệ</div>
+                <h2 class="news-title">YouTuber Việt Nam sẽ bị đánh thuế bản quyền nặng nếu không có hồ sơ tại Mỹ</h2>
+                <div class="news-subtitle">Doanh số smartphone tại Việt Nam tụt lùi</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
